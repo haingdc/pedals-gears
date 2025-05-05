@@ -1,0 +1,22 @@
+{
+  "name": "pedals-gears-css",
+  "version": "1.0.0",
+  "description": "A collection of customizable button styles",
+  "main": "index.js",
+  "style": "dist/styles/index.css",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "prepare": "mkdir -p dist/styles && cp -r styles/* dist/styles/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["css", "buttons", "styles", "ui"],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/pedals-gears-css.git"
+  }
+}
